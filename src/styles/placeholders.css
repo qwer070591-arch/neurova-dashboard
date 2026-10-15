@@ -1,0 +1,17 @@
+.placeholder-card {
+  display: grid;
+  min-height: 16rem;
+  place-items: center;
+  padding: var(--space-8);
+  border: 1px dashed color-mix(in srgb, var(--color-border-strong) 76%, transparent);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-muted);
+  background: color-mix(in srgb, var(--color-surface) 78%, transparent);
+  text-align: center;
+}
+
+.placeholder-card p {
+  max-width: 30rem;
+  margin: 0;
+  font-size: 0.9375rem;
+}
